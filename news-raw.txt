@@ -1,0 +1,109 @@
+<h1>News</h1>
+<h2>Build 15.11.01.1</h2>
+<h3>New Features</h3>
+<ul>
+<li>Added Grave Stones</li>
+<li>Added buy &amp; sell support for the Market</li>
+<li>Added listing to the market</li>
+</ul>
+<h2>Build 15.09.27.22.18</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>The Luminositor is working again</li>
+<li>The Skull of the Fallen is working again</li>
+</ul>
+<h2>Build 15.09.27.2</h2>
+<h3>New Features</h3>
+<ul>
+<li>PvP is enabled only for Wilderness levels greater than 5</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Damage modification on Wilderness arrows has been fixed</li>
+</ul>
+<h2>Build 15.9.27.1</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Flight status is now correctly checked by teleport commands</li>
+</ul>
+<h2>Build 15.8.30.1</h2>
+<h3>Tweaks</h3>
+<ul>
+<li>New Sea Crystal Texture</li>
+<li>New Red Shard Texture</li>
+</ul>
+<h2>Build 15.8.24.2</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Evil Chickens have been removed from the Main &amp; Build worlds</li>
+</ul>
+<h2>Build 15.8.24.1</h2>
+<h3>New Features</h3>
+<ul>
+<li>Wilderness damage modifiers implemented</li>
+</ul>
+<h2>Build 15.8.8.1</h2>
+<h3>New Features</h3>
+<ul>
+<li>Explosions will now trigger ore pools</li>
+</ul>
+<h3>Tweaks</h3>
+<ul>
+<li>Red Shards are now dropped in place of the extra Redstone drop in the Wilderness</li>
+</ul>
+<h2>Build 15.8.2.1</h2>
+<h3>Bug Fixes</h3>
+<ul>
+<li>You can now use a fishing rod without crashing your client</li>
+<li>You can now use a lead without crashing your client</li>
+</ul>
+<h2>Build 15.8.1.1</h2>
+<h3>New Features</h3>
+<ul>
+<li>Instances can now be tested via /zoneme <instance name></li>
+<li>WorldEdit is now included in the mod pack</li>
+<li>WorldEdit CUI has been added as an optional dependency</li>
+</ul>
+<h2>Build 15.7.29.1</h2>
+<h3>Tweaks</h3>
+<ul>
+<li>Simplified the Skull of The Fallen's concept of mob drop modifiers</li>
+</ul>
+<h2>Build 15.7.28.1</h2>
+<h3>New Features</h3>
+<ul>
+<li>/teleport has been replaced by two Skelril commands<ul>
+<li>/teleport (aliases: /tp) - Teleports the sender to a player or location</li>
+<li>/bring (aliases: /br) - Teleports the target player to the sender</li>
+<li>Both commands will protect players from falling out of the sky if the teleported player is not capable of flight/invulnerable</li>
+</ul>
+</li>
+<li>The Skull of The Fallen now provides information about the drop table modifiers</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>Fixed a potential bug where drop tables could be too rewarding</li>
+</ul>
+<h2>Build 15.7.27.1</h2>
+<h3>New Features</h3>
+<ul>
+<li>/gamemode has been replaced by a Skelril commands<ul>
+<li>When switching gamemodes the player will now have their previous gamemode's inventory stored<ul>
+<li>This data will persist after sever crashes</li>
+<li>This data will persist after server restarts</li>
+</ul>
+</li>
+<li>Gamemodes are now specified by their name, and support tab complete</li>
+</ul>
+</li>
+</ul>
+<h2>Build 15.7.26.3</h2>
+<h3>New Features</h3>
+<ul>
+<li>Coffer item stacks now display their value in the tooltip</li>
+<li>Support for the Double Wilderness Drops modifier has been added</li>
+</ul>
+<h3>Bug Fixes</h3>
+<ul>
+<li>"Mesardith Cofer" is now correctly identified as "Mesardith Coffer"</li>
+</ul>

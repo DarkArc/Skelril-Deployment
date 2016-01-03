@@ -1,0 +1,80 @@
+{
+  "destinations": [
+    {
+      "id": "skelril",
+      "user": "Dark_Arc",
+      "addr": "server.skelril.com"
+    }
+  ],
+  "targets": {
+    "files": [
+      {
+        "id": "Skree",
+        "name": "Skree.jar",
+        "src": {
+          "id": "local",
+          "expr": "Skree-[0-9]+\\.[0-9]+\\.jar",
+          "dir": "/home/wyatt/Dev/Minecraft/Skelril/Skree/build/libs"
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/mods"
+          }
+        ]
+      },
+      {
+        "id": "Sponge",
+        "name": "Sponge.jar",
+        "src": {
+          "id": "local",
+          "expr": "Sponge\\.jar",
+          "dir": "/home/wyatt/Dev/Minecraft/Skelril/Deployment/Packs/SkelCore/src/mods"
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/mods"
+          }
+        ]
+      }
+    ],
+    "mappings": [
+      {
+        "id": "Launcher Files",
+        "mode": "exists",
+        "src": {
+          "id": "local",
+          "dir": "/home/wyatt/Dev/Minecraft/Skelril/Deployment/Active/",
+          "exclusion": [
+            ".*/Active/.*\\.(html|json|php)",
+            ".*/Active/versions/.*"
+          ]
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/html/Launcher"
+          }
+        ]
+      },
+      {
+        "id": "Launcher Status Files",
+        "mode": "overwrite",
+        "src": {
+          "id": "local",
+          "dir": "/home/wyatt/Dev/Minecraft/Skelril/Deployment/Active/",
+          "exclusion": [
+            ".*/Active/(bootstrap|libraries|objects)/.*"
+          ]
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/html/Launcher"
+          }
+        ]
+      }
+    ]
+  }
+}

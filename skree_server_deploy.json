@@ -1,0 +1,29 @@
+{
+  "destinations": [
+    {
+      "id": "skelril",
+      "user": "Dark_Arc",
+      "addr": "server.skelril.com"
+    }
+  ],
+  "targets": {
+    "files": [
+      {
+        "id": "Skree",
+        "name": "Skree.jar",
+        "src": {
+          "id": "local",
+          "expr": "Skree-[0-9]+\\.[0-9]+\\.jar",
+          "dir": "/home/wyatt/Dev/Minecraft/Skelril/Skree/build/libs"
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/mods"
+          }
+        ]
+      }
+    ],
+    "mappings": []
+  }
+}
