@@ -1,0 +1,49 @@
+{
+  "destinations": [
+    {
+      "id": "skelril",
+      "user": "Dark_Arc",
+      "addr": "server.skelril.com"
+    }
+  ],
+  "targets": {
+    "files": [],
+    "mappings": [
+      {
+        "id": "Launcher Files",
+        "mode": "exists",
+        "src": {
+          "id": "local",
+          "dir": "/home/wyatt/Dev/Minecraft/Skelril/Deployment/Active/",
+          "exclusion": [
+            ".*/Active/.*\\.(html|json|php)",
+            ".*/Active/versions/.*"
+          ]
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/html/Launcher"
+          }
+        ]
+      },
+      {
+        "id": "Launcher Status Files",
+        "mode": "overwrite",
+        "src": {
+          "id": "local",
+          "dir": "/home/wyatt/Dev/Minecraft/Skelril/Deployment/Active/",
+          "exclusion": [
+            ".*/Active/(bootstrap|libraries|objects)/.*"
+          ]
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/html/Launcher"
+          }
+        ]
+      }
+    ]
+  }
+}
