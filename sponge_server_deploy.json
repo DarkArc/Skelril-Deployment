@@ -1,0 +1,29 @@
+{
+  "destinations": [
+    {
+      "id": "skelril",
+      "user": "Dark_Arc",
+      "addr": "server.skelril.com"
+    }
+  ],
+  "targets": {
+    "files": [
+      {
+        "id": "Sponge",
+        "name": "Sponge.jar",
+        "src": {
+          "id": "local",
+          "expr": "Sponge\\.jar",
+          "dir": "/home/wyatt/Dev/Minecraft/Skelril/Deployment/Packs/SkelCore/src/mods"
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/mods"
+          }
+        ]
+      }
+    ],
+    "mappings": []
+  }
+}
