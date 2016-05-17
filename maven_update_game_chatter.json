@@ -1,0 +1,59 @@
+{
+  "destinations": [
+    {
+      "id": "skelril",
+      "user": "Dark_Arc",
+      "addr": "server.skelril.com"
+    }
+  ],
+  "targets": {
+    "files": [],
+    "mappings": [
+      {
+        "id": "GameChatterServer-Core",
+        "mode": "overwrite",
+        "src": {
+          "id": "local",
+          "dir": "/home/wyatt/.m2/repository/com/nearce/GameChatterServer-Core/",
+          "exclusion": []
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/html/maven/com/nearce/GameChatterServer-Core/"
+          }
+        ]
+      },
+      {
+        "id": "GameChatterServer-Sponge",
+        "mode": "overwrite",
+        "src": {
+          "id": "local",
+          "dir": "/home/wyatt/.m2/repository/com/nearce/GameChatterServer-Sponge/",
+          "exclusion": []
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/html/maven/com/nearce/GameChatterServer-Sponge/"
+          }
+        ]
+      },
+      {
+        "id": "GameChatterServer-Standalone",
+        "mode": "overwrite",
+        "src": {
+          "id": "local",
+          "dir": "/home/wyatt/.m2/repository/com/nearce/GameChatterServer-Standalone/",
+          "exclusion": []
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/html/maven/com/nearce/GameChatterServer-Standalone/"
+          }
+        ]
+      }
+    ]
+  }
+}

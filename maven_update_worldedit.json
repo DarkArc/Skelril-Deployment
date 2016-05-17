@@ -1,0 +1,29 @@
+{
+  "destinations": [
+    {
+      "id": "skelril",
+      "user": "Dark_Arc",
+      "addr": "server.skelril.com"
+    }
+  ],
+  "targets": {
+    "files": [],
+    "mappings": [
+      {
+        "id": "WorldEdit",
+        "mode": "overwrite",
+        "src": {
+          "id": "local",
+          "dir": "/home/wyatt/.m2/repository/com/sk89q/worldedit/",
+          "exclusion": []
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/html/maven/com/sk89q/worldedit/"
+          }
+        ]
+      }
+    ]
+  }
+}

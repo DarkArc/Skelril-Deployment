@@ -1,0 +1,29 @@
+{
+  "destinations": [
+    {
+      "id": "skelril",
+      "user": "Dark_Arc",
+      "addr": "server.skelril.com"
+    }
+  ],
+  "targets": {
+    "files": [],
+    "mappings": [
+      {
+        "id": "Open Boss",
+        "mode": "overwrite",
+        "src": {
+          "id": "local",
+          "dir": "/home/wyatt/.m2/repository/com/skelril/Open Boss/",
+          "exclusion": []
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/html/maven/com/skelril/Open Boss/"
+          }
+        ]
+      }
+    ]
+  }
+}
