@@ -1,0 +1,29 @@
+{
+  "destinations": [
+    {
+      "id": "skelril",
+      "user": "Dark_Arc",
+      "addr": "server.skelril.com"
+    }
+  ],
+  "targets": {
+    "files": [
+      {
+        "id": "WorldEdit",
+        "name": "WorldEdit.jar",
+        "src": {
+          "id": "local",
+          "expr": "worldedit-sponge.*-dist\\.jar",
+          "dir": "/home/wyatt/Dev/Minecraft/sk89q/WorldEdit/worldedit-sponge/build/libs"
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/mods"
+          }
+        ]
+      }
+    ],
+    "mappings": []
+  }
+}
