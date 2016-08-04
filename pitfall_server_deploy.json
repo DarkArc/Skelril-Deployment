@@ -1,0 +1,29 @@
+{
+  "destinations": [
+    {
+      "id": "skelril",
+      "user": "Dark_Arc",
+      "addr": "server.skelril.com"
+    }
+  ],
+  "targets": {
+    "files": [
+      {
+        "id": "Pitfall",
+        "name": "Pitfall.jar",
+        "src": {
+          "id": "local",
+          "expr": "Pitfall.*\\.jar",
+          "dir": "/home/wyatt/Dev/Minecraft/Skelril/Pitfall-2/build/libs"
+        },
+        "dest": [
+          {
+            "id": "skelril",
+            "dir": "/home/Server/mods"
+          }
+        ]
+      }
+    ],
+    "mappings": []
+  }
+}
