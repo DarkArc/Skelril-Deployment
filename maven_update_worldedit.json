@@ -20,7 +20,7 @@
         "dest": [
           {
             "id": "skelril",
-            "dir": "/home/Server/html/maven/com/sk89q/worldedit/"
+            "dir": "/home/minecraft/html/maven/com/sk89q/worldedit/"
           }
         ]
       }

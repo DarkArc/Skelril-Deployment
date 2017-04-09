@@ -20,7 +20,7 @@
         "dest": [
           {
             "id": "skelril",
-            "dir": "/home/Server/html/maven/com/nearce/GameChatterServer-Core/"
+            "dir": "/home/minecraft/html/maven/com/nearce/GameChatterServer-Core/"
           }
         ]
       },
@@ -35,7 +35,7 @@
         "dest": [
           {
             "id": "skelril",
-            "dir": "/home/Server/html/maven/com/nearce/GameChatterServer-Sponge/"
+            "dir": "/home/minecraft/html/maven/com/nearce/GameChatterServer-Sponge/"
           }
         ]
       },
@@ -50,7 +50,7 @@
         "dest": [
           {
             "id": "skelril",
-            "dir": "/home/Server/html/maven/com/nearce/GameChatterServer-Standalone/"
+            "dir": "/home/minecraft/html/maven/com/nearce/GameChatterServer-Standalone/"
           }
         ]
       }

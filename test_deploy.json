@@ -19,7 +19,7 @@
         "dest": [
           {
             "id": "skelril",
-            "dir": "/home/Server/mods"
+            "dir": "/home/minecraft/mods"
           }
         ]
       },
@@ -34,7 +34,7 @@
         "dest": [
           {
             "id": "skelril",
-            "dir": "/home/Server/mods"
+            "dir": "/home/minecraft/mods"
           }
         ]
       }
@@ -54,7 +54,7 @@
         "dest": [
           {
             "id": "skelril",
-            "dir": "/home/Server/html/Launcher"
+            "dir": "/home/minecraft/html/Launcher"
           }
         ]
       },
@@ -71,7 +71,7 @@
         "dest": [
           {
             "id": "skelril",
-            "dir": "/home/Server/html/Launcher"
+            "dir": "/home/minecraft/html/Launcher"
           }
         ]
       }
